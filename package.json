@@ -1,0 +1,19 @@
+{
+  "name": "appdashboard",
+  "version": "1.0.0",
+  "description": "Um Dashboard para a minha aplicação",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "flaviojmendes",
+  "license": "ISC",
+  "dependencies": {
+    "@types/blessed": "^0.1.19",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.10.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
